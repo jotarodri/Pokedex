@@ -1,0 +1,167 @@
+
+
+.App-logo {
+  animation: App-logo-spin infinite 10s linear;
+  height: 80px;
+  margin-left: 15px;
+  margin-bottom: 8px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1000000;
+  text-align: center;
+  
+
+}
+.letras{
+
+height: 100px;
+
+}
+.App-intro {
+  font-size: large;
+}
+
+.App-busqueda{
+ width: 100%;
+ margin-top: 150px;
+ text-align: center;
+}
+
+.buscadorPokemons{
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  background: #222;
+  border: none;
+  font-size: 10pt;
+  color: white;
+  padding-left: 45px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 40px;
+  
+}
+
+.botonBuscar{
+  margin-left: 10px;
+  height: 45px;
+  width: 100px;
+  color: #ffffff;
+    background-color: #222;
+    border-radius: 6px;
+    border: 2px solid white;
+    font-size: 14px;
+  
+
+}
+
+.botonBuscar:hover{
+  color: #222;
+  background-color: white;
+  border: 2px solid #222;
+}
+
+.App-resultado{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 45px;
+  margin-top: 5%;
+  margin-left: 0%;
+  text-align: center;
+  
+}
+
+.pokemon{
+  
+  width: 450px;
+  border: 2px solid black;
+  border-radius: 102px 102px 102px 102px;
+}
+
+.pokemon:hover{
+  -webkit-transform:scale(1.25);
+  -moz-transform:scale(1.25);
+  -ms-transform:scale(1.25);
+  -o-transform:scale(1.25);
+  transform:scale(1.15);
+}
+
+.App-fichaPokemon{
+  position: fixed;
+  height: 500px;
+  width: 800px;
+  text-align: center;
+  word-wrap: break-word;
+  background-color: red; 
+  margin-left: 25%;
+
+z-index: 9999999;
+
+}
+.visible{
+  visibility: visible;
+}
+.novisible{
+  visibility: hidden;
+}
+
+
+.fichaPokemon{
+  text-align: justify;
+  height: 600px;
+  width: 1550px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.headerFicha{
+
+height: 200px;
+width: 1550px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-bottom: 2px solid black;
+}
+.nombreFicha{
+  
+  font-size: 30px;
+  
+}
+
+.fichaPokemon{
+  text-align: center;
+  
+}
+.App-ficha{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 10%;
+}
+.App-flex{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 10%;
+}
+.descripcion{
+  font-size: 20px;
+}
+
+.PesoYaltura{
+  display: flex;
+  justify-content: center;
+}
+.espacio{
+  color: white;
+}
+
+
