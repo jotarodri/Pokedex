@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import  './style/Fichapokemon.css';
 import volver from './imgs/volver.png';
 import Resultado from './Resultado';
 import Busqueda from './Busqueda';
