@@ -1,2 +1,2 @@
 # Pokedex
-Pokedex creada con ReactNative
+Pokedex creada con React
